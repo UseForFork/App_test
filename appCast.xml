@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>Aurigo-build</title>
-    <link>https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4</link>
-    <description>Latest updates for the App.</description>
+    <title>test only</title>
     <item>
-      <title>Version 2.0.7</title>
-      <description>
-        <![CDATA[
-          <p>Release notes:</p>
-          <ul>
-            <li>Added feature X.</li>
-            <li>Improved performance.</li>
-            <li>Fixed bugs.</li>
-          </ul>
-        ]]>
-      </description>
-      <pubDate>Thu, 23 June 2024 00:00:00 +0000</pubDate>
-      <enclosure url="https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4" sparkle:version="1.2.0" type="application/vnd.android.package-archive" length="123456789" />
-      <sparkle:minimumSystemVersion>10.0.0</sparkle:minimumSystemVersion>
+        <title>Version 2.0.5</title>
+        <description>bug fixed</description>
+        <pubDate>Sat, 10 June 2024 15:20:11 +0000</pubDate>
+        <enclosure url="https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4" sparkle:version="2.0.5" />
+        <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
+    </item>
+    <!-- The best chosen release -->
+    <item>
+        <title>Version 2.0.6</title>
+        <description>Minor updates and improvements.</description>
+        <enclosure url="https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4" sparkle:version="2.0.6" sparkle:os="iOS" />
+        <sparkle:deltas>
+            <enclosure url="https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4"
+            sparkle:version="2.0.6"
+            sparkle:deltaFrom="2.0"
+            length="1235"
+            type="application/octet-stream"
+            sparkle:edSignature="..." />
+            
+            <enclosure url="https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4"
+            sparkle:version="2.0.6"
+            sparkle:deltaFrom="1.0"
+            length="1485"
+            type="application/octet-stream"
+            sparkle:edSignature="..." />
+        </sparkle:deltas>
+    </item>
+    <!-- A release testing minimumSystemVersion -->
+    <item>
+        <title>Version 2.0.7</title>
+        <description>Minor updates and improvements.</description>
+        <pubDate>Sat, 23 June 2024 15:20:13 +0000</pubDate>
+        <enclosure url="https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4" sparkle:version="2.0.7" sparkle:os="iOS" />
+        <sparkle:minimumSystemVersion>17.0.0</sparkle:minimumSystemVersion>
+    </item>
+    <!-- A release testing maximumSystemVersion -->
+    <item>
+        <title>Version 2.0.8</title>
+        <sparkle:version>2.0.8</sparkle:version>
+        <sparkle:maximumSystemVersion>2.0.0</sparkle:maximumSystemVersion>
     </item>
   </channel>
 </rss>
