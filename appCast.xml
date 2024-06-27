@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Aurigo-build</title>
+    <link>https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4</link>
+    <description>Latest updates for the App.</description>
+    <item>
+      <title>Version 2.0.7</title>
+      <description>
+        <![CDATA[
+          <p>Release notes:</p>
+          <ul>
+            <li>Added feature X.</li>
+            <li>Improved performance.</li>
+            <li>Fixed bugs.</li>
+          </ul>
+        ]]>
+      </description>
+      <pubDate>Thu, 23 June 2024 00:00:00 +0000</pubDate>
+      <enclosure url="https://apps.apple.com/in/app/aurigo-build/id6444443158?uo=4" sparkle:version="1.2.0" type="application/vnd.android.package-archive" length="123456789" />
+      <sparkle:minimumSystemVersion>10.0.0</sparkle:minimumSystemVersion>
+    </item>
+  </channel>
+</rss>
